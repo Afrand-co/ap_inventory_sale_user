@@ -12,7 +12,6 @@
     'website': 'https://www.yourcompany.com',
     'depends': ['sale', 'stock'],
     'data': [
-        'security/ir.model.access.csv',
         'views/stock_menu_views.xml',
         'views/stock_readonly_views.xml',
     ],
