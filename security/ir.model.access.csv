@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_stock_quant_sales_readonly,stock.quant.sales.readonly,model_stock_quant,group_sale_salesman,1,0,0,0
+access_stock_move_sales_readonly,stock.move.sales.readonly,model_stock_move,group_sale_salesman,1,0,0,0
+access_stock_picking_sales_readonly,stock.picking.sales.readonly,model_stock_picking,group_sale_salesman,1,0,0,0
+access_product_product_sales_readonly,product.product.sales.readonly,model_product_product,group_sale_salesman,1,0,0,0
+access_stock_location_sales_readonly,stock.location.sales.readonly,model_stock_location,group_sale_salesman,1,0,0,0

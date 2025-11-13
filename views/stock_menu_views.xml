@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Make Inventory Reporting menu visible to Sales users -->
+    <record id="stock.menu_stock_reporting" model="ir.ui.menu">
+        <field name="groups_id" eval="[(4, ref('sales_team.group_sale_salesman'))]"/>
+    </record>
+
+    <!-- Make Stock submenu visible to Sales users -->
+    <record id="stock.menu_stock_inventory_control" model="ir.ui.menu">
+        <field name="groups_id" eval="[(4, ref('sales_team.group_sale_salesman'))]"/>
+    </record>
+
+    <!-- Make Stock Moves menu visible to Sales users -->
+    <record id="stock.menu_stock_moves" model="ir.ui.menu">
+        <field name="groups_id" eval="[(4, ref('sales_team.group_sale_salesman'))]"/>
+    </record>
+
+    <!-- Make Stock on Hand menu visible to Sales users -->
+    <record id="stock.menu_stock_on_hand" model="ir.ui.menu">
+        <field name="groups_id" eval="[(4, ref('sales_team.group_sale_salesman'))]"/>
+    </record>
+</odoo>
