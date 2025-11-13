@@ -38,10 +38,7 @@ The module adds read-only access to the following models for the `sales_team.gro
 
 ### Menu Access
 
-The module extends existing stock menus to be visible to Sales users:
-- Inventory → Reporting → Stock
-- Stock on Hand
-- Stock Moves
+Sales users can access stock data through existing Odoo menus and reporting features. The module provides model-level access that enables viewing stock information through standard Odoo interfaces.
 
 ### Read-Only Views
 
