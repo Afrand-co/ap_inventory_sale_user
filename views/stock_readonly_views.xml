@@ -6,11 +6,12 @@
         <field name="model">stock.quant</field>
         <field name="inherit_id" ref="stock.view_stock_quant_tree"/>
         <field name="arch" type="xml">
-            <tree position="attributes" groups="sales_team.group_sale_salesman">
+            <xpath expr="//tree" position="attributes">
                 <attribute name="edit">false</attribute>
                 <attribute name="create">false</attribute>
                 <attribute name="delete">false</attribute>
-            </tree>
+                <attribute name="groups">sales_team.group_sale_salesman</attribute>
+            </xpath>
         </field>
     </record>
 
@@ -20,11 +21,12 @@
         <field name="model">stock.quant</field>
         <field name="inherit_id" ref="stock.view_stock_quant_form"/>
         <field name="arch" type="xml">
-            <form position="attributes" groups="sales_team.group_sale_salesman">
+            <xpath expr="//form" position="attributes">
                 <attribute name="edit">false</attribute>
                 <attribute name="create">false</attribute>
                 <attribute name="delete">false</attribute>
-            </form>
+                <attribute name="groups">sales_team.group_sale_salesman</attribute>
+            </xpath>
         </field>
     </record>
 
@@ -34,11 +36,12 @@
         <field name="model">stock.move</field>
         <field name="inherit_id" ref="stock.view_move_tree"/>
         <field name="arch" type="xml">
-            <tree position="attributes" groups="sales_team.group_sale_salesman">
+            <xpath expr="//tree" position="attributes">
                 <attribute name="edit">false</attribute>
                 <attribute name="create">false</attribute>
                 <attribute name="delete">false</attribute>
-            </tree>
+                <attribute name="groups">sales_team.group_sale_salesman</attribute>
+            </xpath>
         </field>
     </record>
 
@@ -48,11 +51,12 @@
         <field name="model">stock.move</field>
         <field name="inherit_id" ref="stock.view_move_form"/>
         <field name="arch" type="xml">
-            <form position="attributes" groups="sales_team.group_sale_salesman">
+            <xpath expr="//form" position="attributes">
                 <attribute name="edit">false</attribute>
                 <attribute name="create">false</attribute>
                 <attribute name="delete">false</attribute>
-            </form>
+                <attribute name="groups">sales_team.group_sale_salesman</attribute>
+            </xpath>
         </field>
     </record>
 
@@ -62,11 +66,12 @@
         <field name="model">stock.picking</field>
         <field name="inherit_id" ref="stock.vpicktree"/>
         <field name="arch" type="xml">
-            <tree position="attributes" groups="sales_team.group_sale_salesman">
+            <xpath expr="//tree" position="attributes">
                 <attribute name="edit">false</attribute>
                 <attribute name="create">false</attribute>
                 <attribute name="delete">false</attribute>
-            </tree>
+                <attribute name="groups">sales_team.group_sale_salesman</attribute>
+            </xpath>
         </field>
     </record>
 
@@ -76,11 +81,12 @@
         <field name="model">stock.picking</field>
         <field name="inherit_id" ref="stock.view_picking_form"/>
         <field name="arch" type="xml">
-            <form position="attributes" groups="sales_team.group_sale_salesman">
+            <xpath expr="//form" position="attributes">
                 <attribute name="edit">false</attribute>
                 <attribute name="create">false</attribute>
                 <attribute name="delete">false</attribute>
-            </form>
+                <attribute name="groups">sales_team.group_sale_salesman</attribute>
+            </xpath>
         </field>
     </record>
 </odoo>
